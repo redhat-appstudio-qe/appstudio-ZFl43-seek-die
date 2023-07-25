@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-gpmo
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/dc-metro-map-gpmo@sha256:3964ac1c10240c3392ba1423393aa4ecadf12638244d2e6274e3b98d64b4d55a
         name: my-nodejs
         ports:
         - containerPort: 3001
